@@ -31,6 +31,23 @@
     </div>
   </div>
 
+  <style>
+    label {
+      font-weight: 500;
+    }
+
+    .btn {
+      font-weight: 550;
+    }
+
+    button {
+      transition: transform .2s;
+
+      &:active {
+        transform: scale(.95);
+      }
+    }
+  </style>
   <header>
     <!-- PC用 -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" id="pc-nav">
@@ -134,7 +151,8 @@
               </span>
             </div>
 
-            <input class="btn btn-dark" id="submit" name="submit" type="submit" value="新規登録">
+            <button class="btn btn-dark" id="submit" name="submit" type="submit"
+              style="width: 38%; margin-top:10px;">新規登録</button>
           </form>
         </div>
       </div>

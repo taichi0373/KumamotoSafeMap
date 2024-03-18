@@ -31,6 +31,23 @@
     </div>
   </div>
 
+  <style>
+    label {
+      font-weight: 500;
+    }
+
+    .btn {
+      font-weight: 550;
+    }
+
+    button {
+      transition: transform .2s;
+
+      &:active {
+        transform: scale(.95);
+      }
+    }
+  </style>
   <header>
     <!-- PC用 -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" id="pc-nav">
@@ -109,7 +126,7 @@
               <label for="floatingInput2">パスワード</label>
             </div>
 
-            <button class="btn btn-dark p-2" type="submit" style="width: 40%; margin-top:10px;">ログイン</button>
+            <button class="btn btn-dark p-2" type="submit" style="width: 38%; margin-top:10px;">ログイン</button>
           </form>
         </div>
         <div class="signup-link">

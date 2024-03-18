@@ -55,7 +55,50 @@
 
     </div>
   </div>
+  <style>
+    label {
+      font-weight: 500;
+    }
 
+    .btn {
+      font-weight: 550;
+    }
+
+    button {
+      transition: transform .2s;
+
+      &:active {
+        transform: scale(.95);
+      }
+    }
+
+    #map-clear-sm {
+      color: rgb(212, 212, 212);
+      border: 1px solid rgb(216, 216, 216);
+      border-radius: 10px;
+      background-color: dark;
+      font-weight: bold;
+      transition: transform .2s;
+
+      &:active {
+        transform: scale(.95);
+      }
+    }
+
+    #show-button-sm {
+      color: rgb(255, 255, 255);
+      border: 1px solid rgb(0, 145, 230);
+      background-color: rgb(0, 145, 230);
+      border-radius: 10px;
+      background-color: dark;
+      font-weight: bold;
+      transition: transform .2s;
+
+      &:active {
+        transform: scale(.95);
+      }
+    }
+  </style>
   <header>
     <!-- PC用 -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" id="pc-nav">
@@ -81,50 +124,7 @@
       </div>
     </nav>
 
-    <style>
-      label {
-        font-weight: 500;
-      }
 
-      .btn {
-        font-weight: 550;
-      }
-
-      button {
-        transition: transform .2s;
-
-        &:active {
-          transform: scale(.95);
-        }
-      }
-
-      #map-clear-sm {
-        color: rgb(212, 212, 212);
-        border: 1px solid rgb(216, 216, 216);
-        border-radius: 10px;
-        background-color: dark;
-        font-weight: bold;
-        transition: transform .2s;
-
-        &:active {
-          transform: scale(.95);
-        }
-      }
-
-      #show-button-sm {
-        color: rgb(255, 255, 255);
-        border: 1px solid rgb(0, 145, 230);
-        background-color: rgb(0, 145, 230);
-        border-radius: 10px;
-        background-color: dark;
-        font-weight: bold;
-        transition: transform .2s;
-
-        &:active {
-          transform: scale(.95);
-        }
-      }
-    </style>
     <!-- スマホ用 -->
     <nav class="navbar navbar-dark bg-dark fixed-top" id="sm-nav">
       <div class="container-fluid">
